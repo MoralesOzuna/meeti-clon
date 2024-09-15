@@ -20,7 +20,7 @@
     }
 
     &__enlace{
-        @include m.boton(v.$terciario, v.$blanco)
+        @include m.boton(v.$terciario, v.$blanco);
     }
 
 }

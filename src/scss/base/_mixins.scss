@@ -47,3 +47,17 @@
     gap: $espaciado;
     grid-template-columns: repeat($columnas, 1fr);
 }
+
+
+@mixin heading{
+    text-align: center;
+    margin: 0;
+    color: v.$gris;
+}
+
+@mixin textSpan{
+    
+    > span{
+        font-weight: 700;
+    }
+}
